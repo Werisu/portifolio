@@ -1,0 +1,12 @@
+<div class="techStack_container" id="section3">
+  <div class="techStack_text">
+    <h3>Minhas Tecnologias</h3>
+    <p>Tecnologias com as quais tenho estudado</p>
+  </div>
+  <div class="tech_row">
+    <app-img-card
+      *ngFor="let database of items"
+      techImg="{{ database.img }}"
+    ></app-img-card>
+  </div>
+</div>

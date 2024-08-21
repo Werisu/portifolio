@@ -1,0 +1,28 @@
+<div class="about_buttons">
+  <button [style.width]="width" [style.height]="height">
+    <div class="about_buttons-content">
+      <div class="text">
+        <h1>{{ title }}</h1>
+        <div class="sub_container">
+          <div class="sub-items">
+            <a class="link" href="{{ link_a }}" target="_blank">{{
+              subtitle_a
+            }}</a>
+            <img class="sublogo" [src]="[sublogo_a]" alt="" />
+          </div>
+          <div class="sub-items">
+            <a class="link" [href]="[link_b]" target="_blank">{{
+              subtitle_b
+            }}</a>
+            <img class="sublogo" [src]="[sublogo_b]" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="svg">
+        <img [src]="[logo]" alt="" srcset="" />
+      </div>
+    </div>
+  </button>
+</div>
+
+<div class="id" id=""></div>

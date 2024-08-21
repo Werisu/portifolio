@@ -1,0 +1,24 @@
+<div class="projects-cards_container" id="section2">
+  <div class="projects-body">
+    <div class="text">
+      <h3>Meus Projetos</h3>
+      <p>Coisas que construí até agora</p>
+    </div>
+    <div class="card_container">
+      <small class="text"
+        >Nada a relatar por enquanto. Ainda estou trabalhando nisso! 😉</small
+      >
+      <ng-container *ngIf="false">
+        <app-cards
+          *ngFor="let data of items"
+          projImg="{{ data.proj }}"
+          title="{{ data.title }}"
+          sub="{{ data.sub }}"
+          tech="{{ data.tech }}"
+          view="{{ data.view }}"
+          code="{{ data.code }}"
+        ></app-cards>
+      </ng-container>
+    </div>
+  </div>
+</div>

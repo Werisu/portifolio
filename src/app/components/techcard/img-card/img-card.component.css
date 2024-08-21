@@ -1,0 +1,11 @@
+.svgs > img {
+  margin: 10px;
+  width: 70px;
+}
+
+@media (max-width: 685px) {
+  .svgs > img {
+    width: 40px;
+    margin: 5px;
+  }
+}
